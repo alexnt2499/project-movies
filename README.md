@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Project - _Movies_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-## Available Scripts
+Time spent: **12** hours spent in total
 
-In the project directory, you can run:
+## User Stories
 
-### `npm start`
+The following **required** functionality is completed:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [D] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [D] User can view movie details by tapping on a cell.
+- [D] User sees loading state while waiting for the API.
+- [D] User sees an error message when there is a network error.
+- [D] User can pull to refresh the movie list.
+- [D] Simple responsive.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The following **optional** features are implemented:
 
-### `npm test`
+- [D] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [x] Implement segmented control to switch between list view and grid view.
+- [D] Add a search bar.
+- [D] All images fade in.
+- [D] Implement lazy load image.
+- [D] Customize the highlight and selection effect of the cell.
+- [D] Improve UX loading by skeleton loading.
+- [D] Enhance responsive.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following **additional** features are implemented:
 
-### `npm run build`
+List anything else that you can get done to improve the app functionality!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [D] Implement redux-toolkit for state management
+- [D] Implement infinite loading to improve UX
+- [D] Design hover effect for Movie card like netflix
+- [D] Design 404 page
+- [D] Add **Recommendations** in movie detail page
+- [D] Implement debounce search.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Video Walkthrough
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a walkthrough of implemented user stories:
 
-### `npm run eject`
+> Please record screen to a GIF file and attach link here
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Copyright [2022] [Nguyen Thanh Duy]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+        http://www.apache.org/licenses/LICENSE-2.0
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    background-color: #141414;
+    color: #FFF;
+}
+
+.menu-navigation {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, transparent);
+}
+
+.vignette-layer {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 8%, 0) 0, hsla(0, 0%, 8%, .15) 15%, hsla(0, 0%, 8%, .35) 29%, hsla(0, 0%, 8%, .58) 44%, #141414 68%, #141414);
+}
