@@ -2,40 +2,40 @@
 
 **Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-Time spent: **12** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [D] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
-- [D] User can view movie details by tapping on a cell.
-- [D] User sees loading state while waiting for the API.
-- [D] User sees an error message when there is a network error.
-- [D] User can pull to refresh the movie list.
-- [D] Simple responsive.
+- [x] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [x] User can view movie details by tapping on a cell.
+- [x] User sees loading state while waiting for the API.
+- [x] User sees an error message when there is a network error.
+- [x] User can pull to refresh the movie list.
+- [x] Simple responsive.
 
 The following **optional** features are implemented:
 
-- [D] Add a tab bar for **Now Playing** and **Top Rated** movies.
-- [x] Implement segmented control to switch between list view and grid view.
-- [D] Add a search bar.
-- [D] All images fade in.
-- [D] Implement lazy load image.
-- [D] Customize the highlight and selection effect of the cell.
-- [D] Improve UX loading by skeleton loading.
-- [D] Enhance responsive.
+- [x] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [] Implement segmented control to switch between list view and grid view.
+- [x] Add a search bar.
+- [x] All images fade in.
+- [x] Implement lazy load image.
+- [x] Customize the highlight and selection effect of the cell.
+- [x] Improve UX loading by skeleton loading.
+- [x] Enhance responsive.
 
 The following **additional** features are implemented:
 
 List anything else that you can get done to improve the app functionality!
 
-- [D] Implement redux-toolkit for state management
-- [D] Implement infinite loading to improve UX
-- [D] Design hover effect for Movie card like netflix
-- [D] Design 404 page
-- [D] Add **Recommendations** in movie detail page
-- [D] Implement debounce search.
+- [x] Implement redux-toolkit for state management
+- [x] Implement infinite loading to improve UX
+- [x] Design hover effect for Movie card like netflix
+- [x] Design 404 page
+- [x] Add **Recommendations** in movie detail page
+- [x] Implement debounce search.
 
 ## Video Walkthrough
 
