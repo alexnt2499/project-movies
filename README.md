@@ -40,8 +40,12 @@ List anything else that you can get done to improve the app functionality!
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+> Video
 
-> Please record screen to a GIF file and attach link here
+https://user-images.githubusercontent.com/52862752/204955552-0d2301e1-a23b-4b6b-8db3-7e759e47877b.mp4
+
+> Link Production
+> https://project-movies-challenge.vercel.app/
 
 ## License
 
